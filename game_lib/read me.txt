@@ -1,0 +1,36 @@
+WPT LOGIN TEST VERSION 1
+MADE BY SEBBE @ STONESPINE EU
+
+Start application by opening the folder "game_lib" and press "game" (jar)
+
+Test login:
+username: sebbe
+password: f
+
+Test login (banned user)
+username: kekw
+password: f
+
+In order to sign up for raids you must have characters, these can be created in "add character" in the menu.
+
+Show raid overview is just displaying some static information for testing purposes, this will later show information
+about the selected raid.
+
+Raid confirms has yet to be implemented, it will basically display all players signed up for selected raid. Depending if
+they're signed or not, their names will appear with a special colour:
+color code: green=confirmed, red=declined
+
+Admin tools exists, however, UI has not been updated to show those features yet. Features that exists are:
+I)   ban user
+II)  confirm / decline a user for a raid event
+III) create a raid event
+IV)  remove a raid event
+
+
+Feel free to pm me on discord if you got any suggestions/ideas
+
+Server side has yet to be coded, this is all client side. Nothing is saved after a session shutdown and charcters have to be recreated.
+The idea is that the server will be hosted by my raspberry pi3 (and preferably be on 24/7), if i cant get it to
+work i will look for other solutions.
+
+I have no date for when this will be done or if it will ever be done, no promises. 
